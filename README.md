@@ -1,3 +1,3 @@
 ## Dev Notes
 
-This repo contains some of my short notes related to my favourites topic on software development.
+This repo contains short notes related to my favourites topic on software development.
