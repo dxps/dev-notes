@@ -20,7 +20,7 @@ atom-workspace {
   .tab {
     height: @tab-height + 1;
     line-height: @tab-height;
-    max-width: 100px;
+    max-width: 170px;
     .close-icon {
       top: 8px;
       right: 6px;
@@ -30,9 +30,9 @@ atom-workspace {
 }
 
 .status-bar {
-  font-size: 15px;
-  height: 28px;
-  line-height: 28px;
+  font-size: 14px;
+  height: 26px;
+  line-height: 26px;
 }
 
 /* ------- visvadw custom styles : end ------- */
