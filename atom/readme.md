@@ -2,7 +2,7 @@
 
 These are my custom settings related to `tab-bar` with `tab` and `close-icon`, plus `status-bar`:
 
-```
+```less
 /* ------- visvadw custom styles : begin ------- */
 
 @font-size: 15px;
@@ -36,5 +36,7 @@ atom-workspace {
 }
 
 /* ------- visvadw custom styles : end ------- */
-
 ```
+
+And that's the result (with UI Theme = 'One Light' and Syntax Theme = 'Solarized Light'):
+![](https://github.com/visvadw/dev-notes/raw/master/atom/images/tabbar-statusbar-result.png)
