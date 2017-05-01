@@ -1,0 +1,35 @@
+{
+      "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+      "font_size": 14,
+      "ignored_packages": [ "Vintage" ],
+      "sidebar_row_padding_medium": true,
+      "sidebar_size_12": true,
+      "status_bar_brighter": true,
+      "tabs_padding_small": true,
+      "tabs_small": true,
+      "theme": "Afterglow.sublime-theme",
+      "trim_trailing_white_space_on_save": true,
+      "bold_folder_labels": true,
+      "color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+      "file_exclude_patterns": [
+            ".gitkeep", ".gitignore", "README.md", ".DS_Store"
+      ],
+      "folder_exclude_patterns": [
+            "bower_components", "node_modules", "tmp", "dist", ".idea", ".git"
+      ],
+      "font_face": "iosevka-light",
+      "font_size": 16,
+      "highlight_modified_tabs": true,
+      "ignored_packages": [ "Vintage" ],
+      "show_full_path": true,
+      "sidebar_row_padding_small": true,
+      "sidebar_size_13": true,
+      "spacegray_sidebar_font_large": true,
+      "spacegray_sidebar_tree_small": true,
+      "spacegray_tabs_small": true,
+      "status_bar_brighter": false,
+      "tabs_padding_small": true,
+      "tabs_small": true,
+      "theme": "Solarized Space Light.sublime-theme",
+      "trim_trailing_white_space_on_save": true
+}
