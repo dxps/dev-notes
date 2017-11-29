@@ -1,3 +1,3 @@
 ## Dev Notes
 
-This repo contains short notes related to some topics during the software development journey.
+This repo contains short notes related to some topics encountered during the software development journey.
