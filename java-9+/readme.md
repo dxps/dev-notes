@@ -16,6 +16,6 @@ open module accounts.service {
 }
 
 ```
-It should be reviewed and reused later when a newer version of Vert.x will officially support Java 10 (not it depends on gRPC update).
+It should be reviewed and reused later when a newer version of Vert.x will officially support Java 10 (currently it depends on the gRPC update).
 
 
