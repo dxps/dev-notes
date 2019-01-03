@@ -19,5 +19,5 @@ The following settings were added in Visual Studio Code:
   }
   ```
 - disabling the "fake" closing parens comments using `"dart.closingLabels": false`
-
+- increased the allowed length of the line (considered by `dartfmt`) using `"dart.lineLength": 110`
 
