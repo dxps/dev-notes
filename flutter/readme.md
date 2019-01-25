@@ -8,12 +8,13 @@ Use the following commands to start the Android emulator (one of your AVD device
 $ ~/Library/Android/sdk/tools/bin/avdmanager list avd        // To list the existing virtual devices.
 $ ~/Library/Android/sdk/tools/emulator -avd Nexus_5_API_27   // Start the device having that name.
 ```
+**Note:** It is way easier to start it from VSCode. When starting the Debug (F5) in VSCode, it asks you what which device to use if none is detected (shown in the right side of the status bar).
 
 ### VSCode settings
 
 The following settings were added in Visual Studio Code:
 - having the status bar background with the same color as the theme (Material Theme Ocean), instead of the default orange color using:
-  ``json
+  ```json
   "workbench.colorCustomizations": {
     "statusBar.debuggingBackground": "#263238",
   }
