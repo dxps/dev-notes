@@ -25,8 +25,10 @@ The settings that I am using in Visual Studio Code:
   - General ones:
     - `cmd + alt + 1` for Explorer view
     - `cmd + alt + 2` for Search view
+    - `cmd + alt + 3` for SCM view
     - `cmd + alt + 4` for Debug view
     - `cmd + alt + d` for Debug console
+    - `cmd + alt + z` for status bar showing toggle
   - IDEA like ones:
     - `cmd + y` for deleting the current line
     - `cmd + d` for duplicating the current line
@@ -41,6 +43,10 @@ The settings that I am using in Visual Studio Code:
     {
         "key": "alt+cmd+2",
         "command": "workbench.view.search"
+    },
+    {
+        "key": "alt+cmd+3",
+        "command": "workbench.view.scm"
     },
     {
         "key": "alt+cmd+4",
@@ -59,6 +65,10 @@ The settings that I am using in Visual Studio Code:
         "key": "cmd+y",
         "command": "editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
+    },
+   {
+        "key": "alt+cmd+z",
+        "command": "workbench.action.toggleStatusbarVisibility"
     },
   ]
   ```
