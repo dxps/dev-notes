@@ -12,13 +12,4 @@ $ ~/Library/Android/sdk/tools/emulator -avd Nexus_5_API_27   // Start the device
 
 ### VSCode settings
 
-The following settings were added in Visual Studio Code:
-- having the status bar background with the same color as the theme (Material Theme Ocean), instead of the default orange color using:
-  ```json
-  "workbench.colorCustomizations": {
-    "statusBar.debuggingBackground": "#263238",
-  }
-  ```
-- disabling the "fake" closing parens comments using `"dart.closingLabels": false`
-- increased the allowed length of the line (considered by `dartfmt`) using `"dart.lineLength": 110`
-
+Additional Dart and Flutter related settings in VSCode were defined. See the details [here](../_IDEs/vscode/readme.md).
