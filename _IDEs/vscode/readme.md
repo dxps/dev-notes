@@ -1,17 +1,24 @@
 ## VS Code
 
-The settings that I am using in Visual Studio Code:
+These are the settings that I am using in Visual Studio Code.
 
-- Status bar background color in debug mode to be the quite the same as the theme that I am currently like (Pines),:
+Complete file is included [here](./settings.md).
+
+
+- Status bar background color in debug mode to be the quite the same as the theme that I am currently like (Pines):
   ```json
   "workbench.colorCustomizations": {
-    "statusBar.debuggingBackground": "#263238",
+    "statusBar.debuggingBackground": "#223449",
   }
   ```
-- Disabled the "fake" closing parens comments using:
+  Meanwhile, additional customizations related to status bar look were included. Again, check out the [complete settings](./settings.md) for details.
+
+- Initially, I disabled the "fake" closing parens comments using:
   ```json
   "dart.closingLabels": false
   ```
+  but later I reenabled them with a not-so-distracting foreground color, disabled the built-in `editor.matchBrackets`, and using the [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) extension.
+  The result is also in the [settings](./settings.md) page.
 - Increased the allowed length of the line (considered by `dartfmt`) using:
   ```json
   "dart.lineLength": 100
@@ -27,6 +34,7 @@ The settings that I am using in Visual Studio Code:
     - `cmd + alt + 2` for Search view
     - `cmd + alt + 3` for SCM view
     - `cmd + alt + 4` for Debug view
+    - `cmd + alt + 5` for Extensions view
     - `cmd + alt + d` for Debug console
     - `cmd + alt + z` for status bar showing toggle
   - IDEA like ones:
@@ -51,6 +59,10 @@ The settings that I am using in Visual Studio Code:
     {
         "key": "alt+cmd+4",
         "command": "workbench.view.debug"
+    },
+    {
+        "key": "alt+cmd+5",
+        "command": "workbench.view.extensions"
     },
     {
         "key": "alt+cmd+d",
