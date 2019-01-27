@@ -89,4 +89,6 @@ My current settings (`~/Library/Application Support/Code/User/settings.json`) fi
 }
 ```
 
-"and I'm lovin' it!" (like Ludacris saying in "My Chick Bad" :-) )
+"and I'm lovin' it!" (like Ludacris saying in "My Chick Bad" :) )
+
+![](./vscode-look___2019-01-27.png)
