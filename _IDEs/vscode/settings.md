@@ -74,11 +74,12 @@ My current settings (`~/Library/Application Support/Code/User/settings.json`) fi
         "scrollbarSlider.activeBackground": "#FFA00050",
         "settings.headerForeground": "#FFA000",
         "settings.modifiedItemIndicator": "#FFA000",
-        "statusBar.background": "#223449",
-        "statusBar.debuggingBackground": "#223449",
-        "statusBar.debuggingForeground": "#4d84c4",
-        "statusBar.foreground": "#627a96",
-        "tab.activeModifiedBorder": "#728eaf",
+        "statusBar.background": "#25344e",
+        "statusBar.debuggingBackground": "#25344e",
+        "statusBar.debuggingForeground": "#576d86",
+        "statusBar.foreground": "#576d86",
+        "tab.activeModifiedBorder": "#aaaaaaa8",
+        "tab.inactiveModifiedBorder": "#4183cf",
         "textLink.foreground": "#FFA000",
     }
 }
