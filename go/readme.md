@@ -34,9 +34,11 @@ Then you will be able to start the main package in debug mode.
 <br/> <br/>
 
 
-## Running tasks in VSCode
+## Defining and Running my own tasks in VSCode
 
-Here is the content of `tasks/json` file that is stored in `$GOPATH/src/<project-name>/.vscode` directory.
+For defining my own commands, a `tasks.json` file needs to be created in `.vscode` folder that exists in the root of the project (example: `$GOPATH/src/<project-name>/.vscode`).
+Here is an example that builds and run the app:
+
 ```json
 {
     // See https://go.microsoft.com/fwlink/?LinkId=733558
@@ -56,4 +58,7 @@ Here is the content of `tasks/json` file that is stored in `$GOPATH/src/<project
 }
 
 ```
+
+Now, I can use Cmd+Shift+B to run it. Of course, multiple such tasks can be defined and the possible values for the group is either "build" or "test".
+
 
