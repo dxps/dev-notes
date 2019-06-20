@@ -1,0 +1,25 @@
+<mtTheme>
+  <id>org.devisions.idea.theme.cobalt.neon</id>
+  <editorColorsScheme>Cobalt Neon (devisions)</editorColorsScheme>
+  <dark>true</dark>
+  <name>Cobalt Neon (devisions)</name>
+  <colors>
+    <color id="background" value="1f3546ff"/>
+    <color id="foreground" value="acdbe9ff"/>
+    <color id="text" value="87b2c0ff"/>
+    <color id="highlight" value="1a1e24ff"/>
+    <color id="selectionBackground" value="2d3940ff"/>
+    <color id="selectionForeground" value="fffb04ff"/>
+    <color id="button" value="2d3940ff"/>
+    <color id="secondaryBackground" value="45565eff"/>
+    <color id="disabled" value="647e8aff"/>
+    <color id="contrast" value="647e8aff"/>
+    <color id="tableSelected" value="314549ff"/>
+    <color id="secondBorder" value="1a1e24ff"/>
+    <color id="treeSelection" value="283a42ff"/>
+    <color id="notifications" value="2f3b40ff"/>
+    <color id="accent" value="009688ff"/>
+    <color id="excluded" value="2e3c43ff"/>
+  </colors>
+  <themeId>org.devisions.idea.theme.cobalt.neon</themeId>
+</mtTheme>
